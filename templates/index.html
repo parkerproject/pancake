@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pancake</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet" />
+	<style>
+		form{
+			margin: 10% auto;
+			width: 500px;
+		}
+		input[type=text]{
+			font-size: 14px;
+		}
+
+		#str-result{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	  <form id="str-form" method="post">
+		  <div class="row">
+			  <div class="twelve columns">
+					<input name="str1" class="u-full-width" type="text" placeholder="string 1">
+				</div>
+			</div>
+			<div class="row">
+				<div class="twelve columns">
+					<input name="str2" class="u-full-width" type="text" placeholder="string 2">
+				</div>
+		  </div>
+		  <div class="row">
+		  	<div class="three columns">
+		  		<button class="button-primary" type="submit">Compute edit distance</button>
+		  	</div>
+		  </div>
+	  </form>
+	    <div class="row">
+			  <div class="twelve columns" id="str-result"></div>
+			</div>
+			<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+			<script src="https://dl.dropbox.com/s/j0eikib1k2ikzir/helpers.js"></script>
+			<script src="https://dl.dropboxusercontent.com/s/ou0yz4nmdf1opl5/index.js"></script>
+</body>
+</html>
