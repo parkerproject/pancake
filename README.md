@@ -1,5 +1,5 @@
-#### install dependencies and run "flask run" to start the backend server
+##### 1. install dependencies and run "flask run" to start the backend server
 
-####  Visit the main form page http://127.0.0.1:5000/index
+#####  2. Visit the main form page http://127.0.0.1:5000/index
 
-####  test results can be viewed on /SpecRunner.html
+#####  3. open file "SpecRunner.html" directly in the browser to view test results
